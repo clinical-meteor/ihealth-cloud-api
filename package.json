@@ -1,0 +1,31 @@
+{
+  "name": "ihealth-cloud-api",
+  "version": "0.0.2",
+  "description": "API parser for iHealth cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "keywords": [
+    "api",
+    "ihealth",
+    "cloud",
+    "weight"
+  ],
+  "files": [
+    "src",
+    "index.js",
+    "example.js"
+  ],
+  "repository": "https://gitlab.com/joyarzun/ihealth-cloud-api",
+  "author": "joyarzun",
+  "license": "MIT",
+  "dependencies": {
+    "@3846masa/axios-cookiejar-support": "^0.3.2",
+    "axios": "^0.17.1",
+    "tough-cookie": "^2.3.3"
+  },
+  "devDependencies": {
+    "jest": "^22.1.4"
+  }
+}
